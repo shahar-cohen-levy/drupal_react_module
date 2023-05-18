@@ -1,0 +1,7 @@
+spotify_songs.api_form:
+  path: '/admin/config/content/spotify-songs-api'
+  defaults:
+    _controller: '\Drupal\spotify_songs\Controller\SpotifyFavoriteTracks::build'
+    _title: 'Favorite tracks'
+  requirements:
+    _permission: 'access favorite songs config'

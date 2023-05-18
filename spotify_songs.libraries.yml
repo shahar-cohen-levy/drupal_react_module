@@ -1,0 +1,6 @@
+spotify-songs-api:
+  version: 1.x
+  js:
+    js/react/spotify-favorite-tracks/dist/app.bundle.js: { minified: true }
+  dependencies:
+    - core/drupalSettings

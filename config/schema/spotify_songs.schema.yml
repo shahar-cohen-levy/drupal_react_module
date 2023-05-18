@@ -1,0 +1,10 @@
+spotify_songs.client:
+  type: config_object
+  label: 'Spotify songs settings'
+  mapping:
+    client_id:
+      type: text
+      label: 'Client ID'
+    client_secret:
+      type: text
+      label: 'Client secret'

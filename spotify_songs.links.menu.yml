@@ -1,0 +1,5 @@
+spotify_songs.settings:
+  title: 'Spotify Tracks settings'
+  description: 'Configure settings for the custom module.'
+  route_name: spotify_songs.api_form
+  parent: 'system.admin_config_services'
